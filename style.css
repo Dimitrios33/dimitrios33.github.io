@@ -24,25 +24,3 @@ footer {
     padding: 15px;
     background: #ddd;
 }
-
-.profile-pic {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #ccc;
-}
-
-@media (max-width: 600px) {
-    .profile-pic {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-.header {
-    position: relative;
-}
